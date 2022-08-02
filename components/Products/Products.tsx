@@ -16,7 +16,7 @@ function Products() {
             _dark={{
                 bg: "gray.900",
             }}
-            p={20}
+            p={8}
             w="auto"
             justifyContent="center"
             alignItems="center"

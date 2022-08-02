@@ -17,7 +17,7 @@ function About() {
             justify="center"
             direction="column"
             bg={bg}
-            p={20}
+            p={8}
             id="about"
         >
             <SimpleGrid columns={{ base: 1 }} spacing={4} maxWidth="6xl">

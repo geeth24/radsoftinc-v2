@@ -19,7 +19,7 @@ function Hero() {
                 bgPos="center"
                 bgSize="cover"
                 bgRepeat="no-repeat"
-                bgAttachment="fixed"
+                bgAttachment={{ base: "none", sm: "fixed" }}
             >
                 <Flex
                     align="center"

@@ -12,7 +12,7 @@ import React from "react"
 function Team() {
     return (
         <Flex
-            p={20}
+            p={8}
             w="auto"
             justifyContent="center"
             alignItems="center"
