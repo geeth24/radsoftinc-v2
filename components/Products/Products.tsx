@@ -22,12 +22,7 @@ function Products() {
             alignItems="center"
             id="products"
         >
-            <SimpleGrid
-                columns={{ base: 1 }}
-                spacing={4}
-              
-                maxWidth="6xl"
-            >
+            <SimpleGrid columns={{ base: 1 }} spacing={4} maxWidth="6xl">
                 <Box>
                     <Heading
                         fontSize="5xl"
@@ -37,7 +32,6 @@ function Products() {
                     </Heading>
                 </Box>
                 <SimpleGrid
-                   
                     spacing={20}
                     px={{
                         base: 4,
@@ -229,8 +223,8 @@ function Products() {
                                 Work Tracker - Coppell West & Flower Mound East,
                                 built by Geeth Gunnampalli using SwiftUI is an
                                 app that helps Mrs. Anupa Varshney and staff
-                                track their students. It's built to track if the
-                                student picked up their homework for the
+                                track their students. It&apos;s built to track
+                                if the student picked up their homework for the
                                 upcoming week.
                             </chakra.p>
                         </Box>
