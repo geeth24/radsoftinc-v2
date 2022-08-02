@@ -25,7 +25,7 @@ export default class Document extends NextDocument {
                     <meta
                         name="image"
                         property="og:image"
-                        content="/RadBackS.png"
+                        content="/RadBackS.jpg"
                     />
                     <meta name="author" content="Geeth Gunnampalli" />
                     <meta
