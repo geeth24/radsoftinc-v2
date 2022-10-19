@@ -2,6 +2,7 @@ import {
     Box,
     chakra,
     Container,
+    Flex,
     HStack,
     Link as ChakraLink,
     Stack,
@@ -9,6 +10,7 @@ import {
     useColorModeValue,
     VisuallyHidden,
     VStack,
+    Image,
 } from "@chakra-ui/react"
 import { ReactNode } from "react"
 import {
@@ -21,19 +23,32 @@ import Link from "next/link"
 
 const Logo = () => {
     return (
-        <Link href="/">
-            <chakra.h1
-                fontSize="xl"
-                fontWeight="medium"
-                ml="2"
-                bgClip="text"
-                bgGradient="linear(to-r, #ea8c87,#a1241e)"
-                cursor="pointer"
-                fontFamily="AVENGEANCE MIGHTIEST AVENGER"
-            >
-                RAD SOFT, INC.
-            </chakra.h1>
-        </Link>
+        <Flex>
+            <Link href="/">
+                <Image
+                    src="/Bird.png"
+                    alt="Rad Soft, Inc"
+                    boxSize="35px"
+                    objectFit="cover"
+                    cursor="pointer"
+                />
+            </Link>
+
+            <Link href="/">
+                <chakra.h1
+                    fontSize="xl"
+                    fontWeight="medium"
+                    ml="2"
+                    bgClip="text"
+                    bgGradient="linear(to-r, #ea8c87,#a1241e)"
+                    cursor="pointer"
+                    fontFamily="AVENGEANCE MIGHTIEST AVENGER"
+                    mt={2}
+                >
+                    RAD SOFT, INC.
+                </chakra.h1>
+            </Link>
+        </Flex>
     )
 }
 
