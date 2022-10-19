@@ -53,7 +53,7 @@ function Navbar() {
                         </Link>
                         <Link href="/">
                             <chakra.h1
-                                fontSize="xl"
+                                fontSize={{ base: "lg", lg: "xl" }}
                                 fontWeight="medium"
                                 ml="2"
                                 bgClip="text"
