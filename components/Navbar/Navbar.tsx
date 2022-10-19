@@ -12,6 +12,7 @@ import {
     IconButton,
     CloseButton,
     useColorMode,
+    Image,
 } from "@chakra-ui/react"
 import { AiOutlineMenu } from "react-icons/ai"
 import Link from "next/link"
@@ -42,15 +43,25 @@ function Navbar() {
                 >
                     <Flex>
                         <Link href="/">
+                            <Image
+                                src="/Bird.png"
+                                alt="Rad Soft, Inc"
+                                boxSize="35px"
+                                objectFit="cover"
+                                cursor="pointer"
+                            />
+                        </Link>
+                        <Link href="/">
                             <chakra.h1
                                 fontSize="xl"
                                 fontWeight="medium"
                                 ml="2"
                                 bgClip="text"
-                                bgGradient="linear(to-r, #419FDD,#2a4575)"
+                                bgGradient="linear(to-r, #ea8c87,#a1241e)"
                                 onClick={mobileNav.onClose}
                                 cursor="pointer"
                                 fontFamily="AVENGEANCE MIGHTIEST AVENGER"
+                                mt={2}
                             >
                                 RAD SOFT, INC.
                             </chakra.h1>

@@ -27,7 +27,7 @@ const Logo = () => {
                 fontWeight="medium"
                 ml="2"
                 bgClip="text"
-                bgGradient="linear(to-r, #419FDD,#2a4575)"
+                bgGradient="linear(to-r, #ea8c87,#a1241e)"
                 cursor="pointer"
                 fontFamily="AVENGEANCE MIGHTIEST AVENGER"
             >

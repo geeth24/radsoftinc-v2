@@ -21,7 +21,7 @@ const Layout = ({ children }: LayoutProps) => {
 
     const renderLoader = () => (
         <Flex justifyContent="center" alignItems="center" height="100vh">
-            <Spinner size="xl" thickness="4px" speed="0.65s" color="#347fdb" />
+            <Spinner size="xl" thickness="4px" speed="0.65s" color="#dd4840" />
         </Flex>
     )
 

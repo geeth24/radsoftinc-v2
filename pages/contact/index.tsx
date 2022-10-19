@@ -28,7 +28,7 @@ function Contact() {
     const [message, setMessage] = React.useState("")
     const [isSubmitting, setIsSubmitting] = React.useState(false)
     const toast = useToast()
-    const color = useColorModeValue("#347fdb", "#7fafe8")
+    const color = useColorModeValue("#dd4840", "#ea8c87")
 
     const handleSubmit = async (e: { preventDefault: () => void }) => {
         e.preventDefault()
@@ -125,6 +125,7 @@ function Contact() {
                                                     onChange={(e) =>
                                                         setName(e.target.value)
                                                     }
+                                                    color={color}
                                                 />
                                             </InputGroup>
                                         </FormControl>
@@ -146,6 +147,7 @@ function Contact() {
                                                     onChange={(e) =>
                                                         setEmail(e.target.value)
                                                     }
+                                                    color={color}
                                                 />
                                             </InputGroup>
                                         </FormControl>
@@ -162,6 +164,7 @@ function Contact() {
                                                 onChange={(e) =>
                                                     setMessage(e.target.value)
                                                 }
+                                                color={color}
                                             />
                                         </FormControl>
 

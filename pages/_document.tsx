@@ -9,7 +9,7 @@ export default class Document extends NextDocument {
                 <Head>
                     {" "}
                     <meta charSet="utf-8" />
-                    <link rel="icon" href="/RadCircle.png" />
+                    <link rel="icon" href="/Bird.png" />
                     <link
                         rel="preconnect"
                         href="https://fonts.googleapis.com"
@@ -20,12 +20,12 @@ export default class Document extends NextDocument {
                         rel="stylesheet"
                     />
                     <link href="/fonts/fonts_style.css" rel="stylesheet" />
-                    <link rel="apple-touch-icon" href="/RadCircle.png" />
+                    <link rel="apple-touch-icon" href="/Bird.png" />
                     <meta property="og:title" content="Rad Soft, Inc." />
                     <meta
                         name="image"
                         property="og:image"
-                        content="/RadBackS.jpg"
+                        content="/Logo.png"
                     />
                     <meta name="author" content="Geeth Gunnampalli" />
                     <meta

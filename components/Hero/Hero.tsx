@@ -15,7 +15,7 @@ function Hero() {
             <Box
                 w="full"
                 h="container.sm"
-                backgroundImage="/RadBackNo.jpeg"
+                backgroundImage="/Back.jpeg"
                 bgPos="center"
                 bgSize="cover"
                 bgRepeat="no-repeat"
