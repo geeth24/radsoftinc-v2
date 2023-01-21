@@ -22,12 +22,9 @@ function Products() {
             alignItems="center"
             id="products"
         >
-            <SimpleGrid columns={{ base: 1 }} spacing={4} maxWidth="6xl">
+            <SimpleGrid columns={{ base: 1 }} spacing={4} maxWidth="5xl">
                 <Box>
-                    <Heading
-                        fontSize="5xl"
-                        fontFamily="AVENGEANCE MIGHTIEST AVENGER"
-                    >
+                    <Heading fontSize="5xl" fontFamily="Lato">
                         Products
                     </Heading>
                 </Box>
@@ -137,7 +134,7 @@ function Products() {
                                     px={5}
                                     py={3}
                                     fontWeight="semibold"
-                                    colorScheme="brand"
+                                    colorScheme="red"
                                     href="https://mypanchang.app"
                                 >
                                     Learn More
@@ -145,7 +142,7 @@ function Products() {
                             </Box>
                         </Box>
                     </Box>
-                    <Box
+                    {/* <Box
                         bg="white"
                         _dark={{
                             bg: "gray.900",
@@ -228,7 +225,7 @@ function Products() {
                                 upcoming week.
                             </chakra.p>
                         </Box>
-                    </Box>
+                    </Box> */}
                 </SimpleGrid>
             </SimpleGrid>
         </Flex>

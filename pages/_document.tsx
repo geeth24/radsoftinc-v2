@@ -16,7 +16,7 @@ export default class Document extends NextDocument {
                     />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link
-                        href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
                         rel="stylesheet"
                     />
                     <link href="/fonts/fonts_style.css" rel="stylesheet" />

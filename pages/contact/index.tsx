@@ -169,7 +169,7 @@ function Contact() {
                                         </FormControl>
 
                                         <Button
-                                            colorScheme="brand"
+                                            colorScheme="red"
                                             width="full"
                                             variant="outline"
                                             size="sm"

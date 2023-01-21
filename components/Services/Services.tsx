@@ -35,13 +35,14 @@ const Feature = (props: {
             <Icon
                 boxSize={12}
                 _light={{
-                    color: "brand.700",
+                    color: "red.700",
                 }}
                 mb={4}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
                 aria-hidden="true"
+            
             >
                 {props.icon}
             </Icon>
@@ -71,10 +72,10 @@ const Feature = (props: {
 function Services() {
     return (
         <Flex
-            bg="#edf3f8"
-            _dark={{
-                bg: "gray.900",
-            }}
+            // bg="#edf3f8"
+            // _dark={{
+            //     bg: "gray.900",
+            // }}
             p={8}
             w="auto"
             justifyContent="center"
@@ -85,13 +86,10 @@ function Services() {
                 columns={{ base: 1 }}
                 spacing={4}
                 id="about"
-                maxWidth="6xl"
+                maxWidth="5xl"
             >
                 <Box>
-                    <Heading
-                        fontSize="5xl"
-                        fontFamily="AVENGEANCE MIGHTIEST AVENGER"
-                    >
+                    <Heading fontSize="5xl" fontFamily="Lato">
                         Services
                     </Heading>
                 </Box>
@@ -107,12 +105,6 @@ function Services() {
                         xl: 24,
                     }}
                     py={20}
-                  
-                    bg="white"
-                    _dark={{
-                        bg: "gray.800",
-                    }}
-                    shadow="xl"
                 >
                     <Feature title="iOS App Development" icon={<SiApple />}>
                         We develop iOS, iPadOS, and WatchOS apps using Swift.

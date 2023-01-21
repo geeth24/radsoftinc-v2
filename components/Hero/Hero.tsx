@@ -19,7 +19,7 @@ function Hero() {
                 bgPos="center"
                 bgSize="cover"
                 bgRepeat="no-repeat"
-                bgAttachment={{ base: "none", sm: "fixed" }}
+                bgAttachment="fixed"
             >
                 <Flex
                     align="center"
@@ -33,7 +33,7 @@ function Hero() {
                             fontSize={["5xl", "6xl", "8xl"]}
                             color="white"
                             textTransform="uppercase"
-                            fontFamily="AVENGEANCE MIGHTIEST AVENGER"
+                            fontFamily="Lato"
                         >
                             RAD SOFT, INC.
                         </Heading>
@@ -41,7 +41,7 @@ function Hero() {
                             fontSize="4xl"
                             color="white"
                             textTransform="uppercase"
-                            fontFamily="AVENGEANCE MIGHTIEST AVENGER"
+                            fontFamily="Lato"
                         >
                             {" "}
                             Find it & Fix it

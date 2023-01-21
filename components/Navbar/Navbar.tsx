@@ -54,13 +54,13 @@ function Navbar() {
                         <Link href="/">
                             <chakra.h1
                                 fontSize={{ base: "lg", lg: "xl" }}
-                                fontWeight="medium"
+                                fontWeight="black"
                                 ml="2"
                                 bgClip="text"
-                                bgGradient="linear(to-r, #ea8c87,#a1241e)"
+                                bgGradient="linear(to-r, #ED8936,#a1241e,#6B46C1,#a1241e, #ED8936)"
                                 onClick={mobileNav.onClose}
                                 cursor="pointer"
-                                fontFamily="AVENGEANCE MIGHTIEST AVENGER"
+                                fontFamily="Lato"
                                 mt={2}
                             >
                                 RAD SOFT, INC.
@@ -71,7 +71,7 @@ function Navbar() {
                         <HStack
                             spacing={1}
                             mr={1}
-                            color="brand"
+                            color="red"
                             display={{ base: "none", md: "inline-flex" }}
                         >
                             <Button
@@ -85,7 +85,7 @@ function Navbar() {
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
-                                colorScheme="brand"
+                                colorScheme="red"
                             >
                                 About
                             </Button>
@@ -100,11 +100,11 @@ function Navbar() {
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
-                                colorScheme="brand"
+                                colorScheme="red"
                             >
                                 Services
                             </Button>
-                            <Button
+                            {/* <Button
                                 w="full"
                                 variant="ghost"
                                 onClick={mobileNav.onClose}
@@ -115,10 +115,10 @@ function Navbar() {
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
-                                colorScheme="brand"
+                                colorScheme="red"
                             >
                                 Team
-                            </Button>
+                            </Button> */}
                             <Button
                                 w="full"
                                 variant="ghost"
@@ -130,19 +130,19 @@ function Navbar() {
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
-                                colorScheme="brand"
+                                colorScheme="red"
                             >
                                 Products
                             </Button>
                         </HStack>
                         <HStack spacing={1} mr={1}>
                             <Link href="/contact">
-                                <Button colorScheme="brand" size="sm">
+                                <Button colorScheme="red" size="sm">
                                     Contact Us
                                 </Button>
                             </Link>
                             <IconButton
-                                colorScheme="brand"
+                                colorScheme="red"
                                 icon={
                                     colorMode === "light" ? (
                                         <BsFillMoonFill />
@@ -182,7 +182,7 @@ function Navbar() {
                                 spacing={3}
                                 rounded="sm"
                                 shadow="sm"
-                                color="brand"
+                                color="red"
                             >
                                 <CloseButton
                                     aria-label="Close menu"
@@ -199,7 +199,7 @@ function Navbar() {
                                     smooth={true}
                                     duration={500}
                                     offset={-70}
-                                    colorScheme="brand"
+                                    colorScheme="red"
                                 >
                                     About
                                 </Button>
@@ -214,11 +214,11 @@ function Navbar() {
                                     smooth={true}
                                     duration={500}
                                     offset={-70}
-                                    colorScheme="brand"
+                                    colorScheme="red"
                                 >
                                     Services
                                 </Button>
-                                <Button
+                                {/* <Button
                                     w="full"
                                     variant="ghost"
                                     onClick={mobileNav.onClose}
@@ -229,10 +229,10 @@ function Navbar() {
                                     smooth={true}
                                     duration={500}
                                     offset={-70}
-                                    colorScheme="brand"
+                                    colorScheme="red"
                                 >
                                     Team
-                                </Button>
+                                </Button> */}
                                 <Button
                                     w="full"
                                     variant="ghost"
@@ -244,7 +244,7 @@ function Navbar() {
                                     smooth={true}
                                     duration={500}
                                     offset={-70}
-                                    colorScheme="brand"
+                                    colorScheme="red"
                                 >
                                     Products
                                 </Button>

@@ -37,12 +37,12 @@ const Logo = () => {
             <Link href="/">
                 <chakra.h1
                     fontSize="xl"
-                    fontWeight="medium"
+                    fontWeight="black"
                     ml="2"
                     bgClip="text"
-                    bgGradient="linear(to-r, #ea8c87,#a1241e)"
+                    bgGradient="linear(to-r, #ED8936,#a1241e,#6B46C1,#a1241e, #ED8936)"
                     cursor="pointer"
-                    fontFamily="AVENGEANCE MIGHTIEST AVENGER"
+                    fontFamily="Lato"
                     mt={2}
                 >
                     RAD SOFT, INC.
@@ -88,7 +88,7 @@ function Footer() {
     return (
         <Box
             bg={useColorModeValue("gray.200", "gray.800")}
-            color={useColorModeValue("brand.700", "brand.200")}
+            color={useColorModeValue("red.700", "red.200")}
         >
             <Container
                 as={Stack}

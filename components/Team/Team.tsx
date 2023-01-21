@@ -20,10 +20,7 @@ function Team() {
         >
             <SimpleGrid columns={{ base: 1 }} spacing={4} maxWidth="6xl">
                 <Box>
-                    <Heading
-                        fontSize="5xl"
-                        fontFamily="AVENGEANCE MIGHTIEST AVENGER"
-                    >
+                    <Heading fontSize="5xl" fontFamily="Lato">
                         Team
                     </Heading>
                 </Box>
